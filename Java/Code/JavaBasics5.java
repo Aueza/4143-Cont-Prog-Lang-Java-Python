@@ -13,16 +13,14 @@ public class JavaBasics5 {
         System.out.println("And how many pizzas will be ordered?");
         numPizzas = scanner.nextInt();
 
+        // Calculating slices, num per person, and leftover slices.
         int slices = numPizzas * 8;
         int perPerson = slices / numPeople;
         int leftover = slices % numPeople;
+
+        // Printing the calculated output to user.
         System.out.println("Each person can have " + perPerson + " slices.");
         System.out.println("There will be " + leftover + " leftover slices.");
-
-        
-
-
-
 
         // Closing scanner.
         scanner.close();
