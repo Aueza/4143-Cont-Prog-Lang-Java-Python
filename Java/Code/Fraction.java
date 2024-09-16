@@ -1,4 +1,4 @@
-public class Main{
+public class Fraction{
     public static class Frac{
         private int num, den;
 
@@ -76,7 +76,6 @@ public class Main{
             String temp = this.num + "/" + this.den;
             return temp;
         }
-
     }
 
     public static void main(String[] args){
@@ -84,6 +83,7 @@ public class Main{
         Frac f2 = new Frac(1,2);
         Frac f3;
         String s1;
+        
         f1.setNum(5);
         f1.setDen(9);
         s1 = f1.toPrint();
