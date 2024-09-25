@@ -28,3 +28,27 @@ Popular with scientists and engineers for its support for algebraic notation and
 **Ada:**  Used by the U.S. Department of Defense for embedding applications.
 
 ## Java Intro
+**OOP Language:**  Revolves around the concept of objects and classes.
+
+**File Name:**  In Java, the file name must match the class name.
+
+**Strongly Typed:**  Enforces strict rules for data types, preventing implicit type conversions and ensuring that variables and expressions adhere to their declared types.
+
+**Syntax For Constants:**
+- Used in one method (**final** double x = 2.54;).
+- Used in multiple methods (**public static final** double x = 2.54;)
+- Use of **public** methods of other classes can use it.
+
+**Relationship Operators:**  Same as C++, n++, !, +, etc.
+
+**Short Circuit:**  As soon as a definite answer is reached in a conditional, the rest is not looked at by the compiler.
+- (False and True) this is already false so java does not read the true.
+- (True and False) this is already true, java does not read the second half.
+
+**Conditionals and Loops:**  Same as C++
+- if(conditional){}
+- while(conditional){}
+- for(int i = 0; i < size; i++){}
+
+## Java Arrays/ ArrayLists
+
