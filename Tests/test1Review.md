@@ -1,5 +1,5 @@
 ## History
-#1589F0**Programming Lang Definition:**  Systematic notation by which we describe computational processes to others.
+**Programming Lang Definition:**  Systematic notation by which we describe computational processes to others.
 
 **John Von Neumann:**  Proposed that computers should be permanently hardwired with a small set of general-purpose operations.
 
@@ -15,3 +15,16 @@
 - Lacked the structured control statements and data structure of later high-level languages.
   
 Popular with scientists and engineers for its support for algebraic notation and floating-point numbers.
+
+**Algol:**  ALGOrithmic language released in 1960. 
+- Introduced structured control statements for sequencing, loops, and conditionals.
+- Supported different numeric types.
+- Introduced the array structure.
+- Supported procedures, including recursive procedures.
+- The requirement for an ALGOL compiler was also introduced.
+
+**Compiler:**  Translates programming language statements into machine code.
+
+**Ada:**  Used by the U.S. Department of Defense for embedding applications.
+
+##Java Intro
