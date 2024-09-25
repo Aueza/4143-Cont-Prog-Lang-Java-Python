@@ -13,4 +13,5 @@
 - Developed by John Backus in the 1950s.
 - Reflected the architecture of a particular type of machine.
 - Lacked the structured control statements and data structure of later high-level languages.
+  
 Popular with scientists and engineers for its support for algebraic notation and floating-point numbers.
