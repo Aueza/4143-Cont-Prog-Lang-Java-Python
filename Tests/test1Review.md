@@ -56,4 +56,8 @@ Arrays are objects, allocated by new. (int[] myArr = new int[5];)
 - **Copying:**  myArr3 = Arrays.copyOf(myArr1, myArr1.length()); Creates a copy of myArr1.
 - **Assigning a Reference:**  myArr2 = myArr1; This makes myArr1 point to myArr2. (myArr1 is lost in memory).
 
-**Two-Dimensional Arrays:**  
+**Two-Dimensional Arrays:**  int[][] myArr = newint[3][4]; Creates an array of arrays as Java does not have true 2D arrays as C++.
+
+**Ragged Arrays:**  int[][] raggedArr = new int[3][];
+- raggedArr[0] = new int[4];
+- raggedArr[
