@@ -42,8 +42,8 @@ Popular with scientists and engineers for its support for algebraic notation and
 **Relationship Operators:**  Same as C++, n++, !, +, etc.
 
 **Short Circuit:**  As soon as a definite answer is reached in a conditional, the rest is not looked at by the compiler.
-- (False and True) this is already false so java does not read the true.
-- (True and False) this is already true, java does not read the second half.
+- (False and True) this is already false so Java does not read the true.
+- (True and False) this is already true, Java does not read the second half.
 
 **Conditionals and Loops:**  Same as C++
 - if(conditional){}
@@ -61,4 +61,26 @@ Arrays are objects, allocated by new. (int[] myArr = new int[5];)
 
 **Ragged Arrays:**  int[][] raggedArr = new int[3][];
 - raggedArr[0] = new int[4];
-- raggedArr[
+- raggedArr[1] = new int[3];
+- raggedArr[2] = new int[2];
+- raggedArr[3] = new int[1];
+- Creates a stairstep pattern.
+
+**For Each:**  for(int var : array){print var;}
+
+**ArrayLists:**  Array that can shrink and grow dynamically, similar to a vector in C++. 
+- Disadvantages:  Performance overhead, slow insertion/deletion, and memory waste.
+- Advantages:  Dynamic size, resizeable, flexible insertion/deletion.
+
+## Java Classes/Methods/Objects
+**Mutator and Accessor Methods:**  Mutator mutates or changes the value of a member variable. An accessor accesses or returns the value of a member variable.
+
+**OOP Main Concepts:** 
+- Instantiation:  An instance or creation of an object of type "class".
+- Inheritance:  When a class inherits methods/variables from another. Can add additional methods/variables as needed.
+- Polymorphism:  Using abstract methods to allow for function's to be defined for specific classes.
+- Abstraction:  Utilizing private/public methods and variables to hide implementation details while maintaining feature functionality.
+
+**Methods:**  Member methods are defined within the public sector of a class and allow for objects of this class to use them.
+
+**Constructor:**  Involves the creation of objects of type "class". There are default, parameterized, and copy constructors. 
