@@ -52,6 +52,7 @@ Popular with scientists and engineers for its support for algebraic notation and
 
 ## Java Arrays/ ArrayLists
 Arrays are objects, allocated by new. (int[] myArr = new int[5];)
+
 **Copying an Array vs Assigning a Reference:**
 - **Copying:**  myArr3 = Arrays.copyOf(myArr1, myArr1.length()); Creates a copy of myArr1.
 - **Assigning a Reference:**  myArr2 = myArr1; This makes myArr1 point to myArr2. (myArr1 is lost in memory).
