@@ -1,10 +1,10 @@
 import re
 
 # open text file.
-with open('/workspaces/4143-Cont-Prog-Lang-Java-Python/Python/Book.txt', 'r') as file:
+with open('/workspaces/4143-Cont-Prog-Lang-Java-Python/Python/Program 4/Book.txt', 'r') as file:
     text = file.read()
 # open output file
-fout = open('/workspaces/4143-Cont-Prog-Lang-Java-Python/Python/myResults.txt', 'w')
+fout = open('/workspaces/4143-Cont-Prog-Lang-Java-Python/Python/Program 4/myResults.txt', 'w')
 
 #print heading to outfile
 fout.write("Ethan Saenz \n"
